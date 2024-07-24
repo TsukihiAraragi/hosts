@@ -1,0 +1,48 @@
+## Localhost Start
+127.0.0.1    localhost
+::1    ip6-localhost
+::1    ip6-loopback
+## Localhost End
+
+# Mobile data login Start
+127.0.0.1    cmpassport.com
+127.0.0.1    config.cmpassport.com
+127.0.0.1    config1.cmpassport.com
+127.0.0.1    config2.cmpassport.com
+127.0.0.1    config001.cmpassport.com
+127.0.0.1    config002.cmpassport.com
+127.0.0.1    log.cmpassport.com
+127.0.0.1    log-h5.cmpassport.com
+127.0.0.1    log1.cmpassport.com
+127.0.0.1    log2.cmpassport.com
+127.0.0.1    log001.cmpassport.com
+127.0.0.1    log002.cmpassport.com
+127.0.0.1    msg.cmpassport.com
+127.0.0.1    onekey.cmpassport.com
+127.0.0.1    onekey1.cmpassport.com
+127.0.0.1    onekey2.cmpassport.com
+127.0.0.1    smsks1.cmpassport.com
+127.0.0.1    verify.cmpassport.com
+127.0.0.1    wap.cmpassport.com
+127.0.0.1    www.cmpassport.com
+
+127.0.0.1    id6.me
+127.0.0.1    www.id6.me
+127.0.0.1    open.e.189.cn
+
+127.0.0.1   auth.wosms.cn
+127.0.0.1   enrichgw.10010.com
+127.0.0.1   nisportal.10010.com
+127.0.0.1   hmrz.wo.cn
+127.0.0.1   id.mail.wo.cn
+127.0.0.1   mdn.open.wo.cn
+127.0.0.1   opencloud.wostore.cn
+
+127.0.0.1    ye.dun.163yun.com
+
+127.0.0.1    dypnsapi.aliyuncs.com
+
+127.0.0.1    cdn-api-verify.mob.com
+127.0.0.1    cache-verify.mob.com
+127.0.0.1    log-verify.mob.com
+# Mobile data login End
