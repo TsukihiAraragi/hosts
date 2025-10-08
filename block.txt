@@ -1,48 +1,99 @@
-## Localhost Start
+# default rules, DO NOT EDIT OR REMOVE
 127.0.0.1    localhost
 ::1    ip6-localhost
 ::1    ip6-loopback
-## Localhost End
 
-# Mobile data login Start
-127.0.0.1    cmpassport.com
-127.0.0.1    config.cmpassport.com
-127.0.0.1    config1.cmpassport.com
-127.0.0.1    config2.cmpassport.com
-127.0.0.1    config001.cmpassport.com
-127.0.0.1    config002.cmpassport.com
-127.0.0.1    log.cmpassport.com
-127.0.0.1    log-h5.cmpassport.com
-127.0.0.1    log1.cmpassport.com
-127.0.0.1    log2.cmpassport.com
-127.0.0.1    log001.cmpassport.com
-127.0.0.1    log002.cmpassport.com
-127.0.0.1    msg.cmpassport.com
-127.0.0.1    onekey.cmpassport.com
-127.0.0.1    onekey1.cmpassport.com
-127.0.0.1    onekey2.cmpassport.com
-127.0.0.1    smsks1.cmpassport.com
-127.0.0.1    verify.cmpassport.com
-127.0.0.1    wap.cmpassport.com
-127.0.0.1    www.cmpassport.com
+# these rules for https://dev.10086.cn/numIdentific
+0.0.0.0    cmpassport.com
+0.0.0.0    config.cmpassport.com
+0.0.0.0    config1.cmpassport.com
+0.0.0.0    config2.cmpassport.com
+0.0.0.0    config001.cmpassport.com
+0.0.0.0    config002.cmpassport.com
+0.0.0.0    log.cmpassport.com
+0.0.0.0    log-h5.cmpassport.com
+0.0.0.0    log1.cmpassport.com
+0.0.0.0    log2.cmpassport.com
+0.0.0.0    log001.cmpassport.com
+0.0.0.0    log002.cmpassport.com
+0.0.0.0    msg.cmpassport.com
+0.0.0.0    onekey.cmpassport.com
+0.0.0.0    onekey1.cmpassport.com
+0.0.0.0    onekey2.cmpassport.com
+0.0.0.0    smsks1.cmpassport.com
+0.0.0.0    verify.cmpassport.com
+0.0.0.0    wap.cmpassport.com
+0.0.0.0    www.cmpassport.com
 
-127.0.0.1    id6.me
-127.0.0.1    www.id6.me
-127.0.0.1    open.e.189.cn
+# these rules for https://id.dlife.cn/banner/unPassword
+0.0.0.0    id6.me
+0.0.0.0    www.id6.me
+0.0.0.0    open.e.189.cn
 
-127.0.0.1   auth.wosms.cn
-127.0.0.1   enrichgw.10010.com
-127.0.0.1   nisportal.10010.com
-127.0.0.1   hmrz.wo.cn
-127.0.0.1   id.mail.wo.cn
-127.0.0.1   mdn.open.wo.cn
-127.0.0.1   opencloud.wostore.cn
+# these rules for https://img.client.10010.com/stprototype/clientonekeylogin/onekeyloginyinsi.html
+0.0.0.0   auth.wosms.cn
+0.0.0.0   enrichgw.10010.com
+0.0.0.0   nisportal.10010.com
+0.0.0.0   hmrz.wo.cn
+0.0.0.0   id.mail.wo.cn
+0.0.0.0   mdn.open.wo.cn
+0.0.0.0   opencloud.wostore.cn
 
-127.0.0.1    ye.dun.163yun.com
+# these rules for https://dun.163.com/product/phone-verification
+0.0.0.0    ye.dun.163yun.com
 
-127.0.0.1    dypnsapi.aliyuncs.com
+# these rules for https://next.api.aliyun.com/product/Dypnsapi
+0.0.0.0    dypnsapi.aliyuncs.com
+0.0.0.0    log.aliyuncs.com
+0.0.0.0    dypnsapi-dualstack.log.aliyuncs.com
+0.0.0.0    tap-android-logs.cn-qingdao.dualstack.log.aliyuncs.com
+0.0.0.0    tap-snow.cn-qingdao.dualstack.log.aliyuncs.com
+0.0.0.0    tap-android-logs.cn-beijing.dualstack.log.aliyuncs.com
+0.0.0.0    tap-snow.cn-beijing.dualstack.log.aliyuncs.com
+0.0.0.0    tap-android-logs.cn-zhangjiakou.dualstack.log.aliyuncs.com
+0.0.0.0    tap-snow.cn-zhangjiakou.dualstack.log.aliyuncs.com
+0.0.0.0    tap-android-logs.cn-huhehaote.dualstack.log.aliyuncs.com
+0.0.0.0    tap-snow.cn-huhehaote.dualstack.log.aliyuncs.com
+0.0.0.0    tap-android-logs.cn-hangzhou.dualstack.log.aliyuncs.com
+0.0.0.0    tap-snow.cn-hangzhou.dualstack.log.aliyuncs.com
+0.0.0.0    tap-android-logs.cn-shanghai.dualstack.log.aliyuncs.com
+0.0.0.0    tap-snow.cn-shanghai.dualstack.log.aliyuncs.com
+0.0.0.0    tap-android-logs.cn-shenzhen.dualstack.log.aliyuncs.com
+0.0.0.0    tap-snow.cn-shenzhen.dualstack.log.aliyuncs.com
+0.0.0.0    tap-android-logs.ap-southeast-3.dualstack.log.aliyuncs.com
+0.0.0.0    tap-snow.ap-southeast-3.dualstack.log.aliyuncs.com
+0.0.0.0    tap-android-logs.ap-northeast-1.dualstack.log.aliyuncs.com
+0.0.0.0    tap-snow.ap-northeast-1.dualstack.log.aliyuncs.com
+0.0.0.0    tap-android-logs.cn-chengdu.dualstack.log.aliyuncs.com
+0.0.0.0    tap-snow.cn-chengdu.dualstack.log.aliyuncs.com
+0.0.0.0    tap-android-logs.ap-southeast-1.dualstack.log.aliyuncs.com
+0.0.0.0    tap-snow.ap-southeast-1.dualstack.log.aliyuncs.com
+0.0.0.0    tap-android-logs.ap-southeast-5.dualstack.log.aliyuncs.com
+0.0.0.0    tap-snow.ap-southeast-5.dualstack.log.aliyuncs.com
+0.0.0.0    tap-android-logs.cn-hongkong.dualstack.log.aliyuncs.com
+0.0.0.0    tap-snow.cn-hongkong.dualstack.log.aliyuncs.com
+0.0.0.0    tap-android-logs.eu-central-1.dualstack.log.aliyuncs.com
+0.0.0.0    tap-snow.eu-central-1.dualstack.log.aliyuncs.com
+0.0.0.0    tap-android-logs.us-east-1.dualstack.log.aliyuncs.com
+0.0.0.0    tap-snow.us-east-1.dualstack.log.aliyuncs.com
+0.0.0.0    tap-android-logs.us-west-1.dualstack.log.aliyuncs.com
+0.0.0.0    tap-snow.us-west-1.dualstack.log.aliyuncs.com
+0.0.0.0    tap-android-logs.eu-west-1.dualstack.log.aliyuncs.com
+0.0.0.0    tap-snow.eu-west-1.dualstack.log.aliyuncs.com
+0.0.0.0    tap-android-logs.me-east-1.dualstack.log.aliyuncs.com
+0.0.0.0    tap-snow.me-east-1.dualstack.log.aliyuncs.com
+0.0.0.0    tap-android-logs.cn-hangzhou-finance.dualstack.log.aliyuncs.com
+0.0.0.0    tap-snow.cn-hangzhou-finance.dualstack.log.aliyuncs.com
+0.0.0.0    tap-android-logs.cn-shanghai-finance-1.dualstack.log.aliyuncs.com
+0.0.0.0    tap-snow.cn-shanghai-finance-1.dualstack.log.aliyuncs.com
+0.0.0.0    tap-android-logs.cn-shenzhen-finance-1.dualstack.log.aliyuncs.com
+0.0.0.0    tap-snow.cn-shenzhen-finance-1.dualstack.log.aliyuncs.com
 
-127.0.0.1    cdn-api-verify.mob.com
-127.0.0.1    cache-verify.mob.com
-127.0.0.1    log-verify.mob.com
-# Mobile data login End
+
+# these rules for https://www.mob.com/wiki/detailed?wiki=198&id=78
+0.0.0.0    cdn-api-verify.mob.com
+0.0.0.0    cache-verify.mob.com
+0.0.0.0    log-verify.mob.com
+
+# these rules for https://www.umeng.com/u-verify
+0.0.0.0    verify5.market.alicloudapi.com
